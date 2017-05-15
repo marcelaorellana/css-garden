@@ -1,8 +1,8 @@
 *{
-	
 	font-family: 'Sintony', sans-serif;
 	color: #332C31;
 }
+
 html { 
 	background-color: #adc9bb; 
 	background-image: url("triangles.jpg");
@@ -10,70 +10,87 @@ html {
     background-attachment: fixed;
     background-position: center; 
 }
+
 body{
 	margin: auto;
     width: 60%;
-    padding: 10px;
-    padding-top: 10px;
     background-color: #FBFBFB;
-   
 }
+
 header{
 	background-color: #551235;
+	background: linear-gradient(#551235, #8F3750); 
 	overflow:auto;
-	
 	width: 100%;
 	margin: auto;
-	
 	text-align: center;
 }
+
 h1, h2, h3, h4, h5, h6{
 	font-family: 'Amaranth', sans-serif;
 }
+
 h1, h2{
 	color: whitesmoke;
 }
+
 h2 abbr{
 	color: whitesmoke;
 }
 
+p{
+	padding: 10px;
+}
+
 a {
     text-decoration: none;
+    color: #B0403F;
 }
- a{
-	color: #B0403F;
-}
- a:hover {
+
+a:hover {
     color: #F16A4A;
 }
+
 h1 {
     text-align: center;
     font-weight: bold;
   	font-size: 42px;
 }
+
 h3{
 	text-indent: 50px;
+	color: #3F2D5D;
 }
+
 footer, aside{
 	background-color: #F89C73;
 }
 
-
-.wrapper {
-    
-   
-    overflow: hidden; /* will contain if #first is longer than #second */
+.wrapper { 
+    overflow: hidden; 
 }
+
 #design-selection {
     width: 400px;
-    float:left; /* add this */
-    
+    float:left; 
 }
+
 #design-archives {
-    
-    overflow: hidden; /* if you don't want #second to wrap below #first */
+    overflow: hidden;
 }
-#zen-resources {
-    
-    overflow: hidden; /* if you don't want #second to wrap below #first */
+
+#zen-resources {  
+    overflow: hidden; 
+}
+
+.designer-name{
+	font-weight: bold;
+}
+
+#zen-resources abbr{
+	color: #B0403F;
+}
+
+#zen-resources abbr:hover{
+	color: #F16A4A;
 }
